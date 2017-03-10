@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+header, main{
+	text-align: center;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5em;
+	user-select: none;
+}
+
+h1:hover{
+	cursor: default;
+}
+
+.tube{
+	background-color: red;
+	color:white;
+	border-radius: 15px;
+}
+
+input, button{
+	height: 60px;
+	font-size: 1.6em;
+	margin-bottom: 30px;
+}
+
+input{
+	width: 400px;
+}
+
+button{
+	width: 120px;
+}
+
+img{
+	display:block;
+	margin: 8px auto;
+	border: 6px red solid;
+
+}
